@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="광고 리드가 첫 응대 · 내원 · 계약까지 흐르고 결과를 매체로 되돌리는 리드 CRM을 가정한 시제품. 가상 데이터.">
+  <title>진성 DB 닫힌 고리 데스크</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <p class="brand">진성 DB 닫힌 고리 데스크 <span class="tag">시제품</span></p>
+      <div class="roles" role="group" aria-label="화면 바꾸기">
+        <button type="button" data-role="agent" aria-pressed="true">상담원</button>
+        <button type="button" data-role="advertiser" aria-pressed="false">광고주</button>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <div id="view-agent"></div>
+    <div id="view-advertiser" hidden></div>
+  </main>
+  <footer class="foot">
+    <p data-demo-note>가상 데이터 시연입니다. 실제 회사 · 고객 · 전화번호 · 가격이 아닙니다.</p>
+  </footer>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
